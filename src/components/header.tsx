@@ -73,7 +73,7 @@ export const Header = () => {
                 {name}
                 {name === activeSection && (
                   <motion.span
-                    className="bg-muted absolute inset-0 -z-10 rounded-full"
+                    className="dark:bg-[#1C1B2F] bg-[#F2F2F7] absolute inset-0 -z-10 rounded-full"
                     layoutId="activeSection"
                     transition={{
                       type: 'spring',

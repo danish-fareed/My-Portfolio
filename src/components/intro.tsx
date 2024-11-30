@@ -13,7 +13,7 @@ export const Intro = () => {
   return (
     <section
       ref={ref}
-      id="home"
+      id="intro"
       className="my-10 flex scroll-mt-96 flex-col items-center gap-4 text-center sm:mt-20"
     >
       <motion.a

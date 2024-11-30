@@ -1,8 +1,9 @@
-import { Inter } from 'next/font/google';
+import { Plus_Jakarta_Sans } from 'next/font/google';
 
-const fontSans = Inter({
+const fontSans = Plus_Jakarta_Sans({
   subsets: ['latin'],
-  variable: '--font-sans',
+  weight: ['400', '500', '700'], // Specify the weights you need
+  variable: '--font-sans', // CSS variable for the font
 });
 
 export const fonts = [fontSans.variable];

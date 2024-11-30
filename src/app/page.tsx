@@ -24,7 +24,9 @@ const Home = async () => {
       <div className="container flex flex-col items-center">
         <Header />
         {/* <Intro /> */}
-        <Cards />
+        <div className='-mt-16'>
+          <Cards />
+        </div>
         <SectionDivider />
         <About />
         <Projects starsCount={starsCount} />
@@ -32,7 +34,6 @@ const Home = async () => {
         <Contact />
         <Footer />
       </div>
-      <ThemeToggle className="fixed bottom-5 right-5 hidden sm:bottom-8 sm:right-8 sm:flex" />
     </>
   );
 };
