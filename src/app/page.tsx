@@ -1,4 +1,5 @@
 import { About } from '@/components/about';
+import { Cards } from '@/components/cards';
 import { Contact } from '@/components/contact';
 import { Experience } from '@/components/experience';
 import { Footer } from '@/components/footer';
@@ -22,7 +23,8 @@ const Home = async () => {
     <>
       <div className="container flex flex-col items-center">
         <Header />
-        <Intro />
+        {/* <Intro /> */}
+        <Cards />
         <SectionDivider />
         <About />
         <Projects starsCount={starsCount} />

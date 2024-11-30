@@ -23,7 +23,7 @@ export const Intro = () => {
           type: 'tween',
           duration: 0.2,
         }}
-        href="https://github.com/Skolaczk/next-starter"
+        href="https://github.com/your-username/next-project"
         className="bg-muted rounded px-3 py-1 text-sm font-medium"
       >
         🎉
@@ -34,7 +34,7 @@ export const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
         className="text-3xl font-bold leading-tight tracking-tighter sm:text-4xl"
       >
-        Front-end developer with a passion for design
+        UX/UI Designer & Developer Crafting User-Centric Experiences
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, y: 100 }}
@@ -44,8 +44,11 @@ export const Intro = () => {
         }}
         className="text-muted-foreground max-w-lg"
       >
-        Hello, I&apos;m Michał. I am front-end developer from Poland. I enjoy
-        building sites and apps. My focus is React (Next.js).
+        Hi there, I&apos;m Danish Fareed. A creative UX/UI designer and
+        developer with over 5 years of experience. I specialize in blending
+        aesthetics with functionality to create intuitive digital products. I
+        love turning complex ideas into seamless designs and working on exciting
+        projects that push boundaries.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}
@@ -66,13 +69,13 @@ export const Intro = () => {
           className="hidden sm:flex"
           asChild
         >
-          <a href="/michalskolak.pdf" download>
+          <a href="/danishfareed.pdf" download>
             Download CV <Icons.download className="ml-2 size-4" />
           </a>
         </Button>
         <Button variant="secondary" size="icon" asChild>
           <a
-            href="https://www.linkedin.com/in/micha%C5%82-skolak-06905524b"
+            href="https://www.linkedin.com/in/danishfareed"
             aria-label="Linkedin"
             download
           >
@@ -80,7 +83,7 @@ export const Intro = () => {
           </a>
         </Button>
         <Button variant="secondary" size="icon" asChild>
-          <a href="https://github.com/Skolaczk" aria-label="Github">
+          <a href="https://github.com/your-github" aria-label="Github">
             <Icons.github className="size-6" />
           </a>
         </Button>
