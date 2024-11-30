@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: PropsWithChildren) => {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={cn('min-h-screen font-sans', fonts)}>
+      <body className={cn('min-h-screen bg-[#1C1B2F] font-sans', fonts)}>
         <ThemeProvider attribute="class">
           <ActiveSectionProvider>
             {children}
