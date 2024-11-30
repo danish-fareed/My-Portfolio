@@ -24,14 +24,12 @@ const Home = async () => {
       <div className="container flex flex-col items-center">
         <Header />
         {/* <Intro /> */}
-        <div className='-mt-16'>
-          <Cards />
-        </div>
-        <SectionDivider />
+        <Cards />
+        {/* <SectionDivider />
         <About />
         <Projects starsCount={starsCount} />
         <Experience />
-        <Contact />
+        <Contact /> */}
         <Footer />
       </div>
     </>

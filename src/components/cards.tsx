@@ -45,7 +45,7 @@ export const Cards = () => {
     <motion.section
       ref={ref}
       id="home"
-      className="my-10 scroll-mt-96 sm:mt-20"
+      className="my-10 scroll-mt-96 sm:mt-4"
       initial={{
         opacity: 0,
       }}
