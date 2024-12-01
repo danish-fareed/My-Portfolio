@@ -2,14 +2,16 @@
 
 import { useTheme } from "next-themes";
 import SpotlightCursor from "./SpotLightCursorExample";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
  
 const UseSpotLight = () => {
-    var mounted = false;
+    const [mounted, setMounted] = useState(false);
+
     const {theme} = useTheme();
     useEffect(() => {
-        mounted = true;
+        setMounted(true);
+    
     }) 
     const spotlightConfig = {
       radius: 700,
