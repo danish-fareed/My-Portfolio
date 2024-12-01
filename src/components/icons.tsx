@@ -9,10 +9,14 @@ import {
   Moon,
   Star,
   Sun,
+  Phone,
+  Mail,
 } from 'lucide-react';
 
 export const Icons = {
   sun: Sun,
+  phone: Phone,
+  mail: Mail,
   moon: Moon,
   arrowRight: ArrowRight,
   download: Download,
