@@ -21,7 +21,7 @@ interface SectionCardProps {
 }
 
 const SectionCard = ({ children }: SectionCardProps) => (
-  <div className="border dark:border-[#4e4e4e65] border-[#07070718] rounded-[32px] dark:bg-[#252438] bg-white px-9 py-10">
+  <div className="border dark:border-[#4e4e4e65] border-[#07070718] rounded-[32px] dark:bg-[#222636]/50 bg-white/50 px-9 py-10 backdrop-blur-2xl">
     {/* <div className="flex items-center justify-between">
       <h3 className="text-xl font-semibold">{title}</h3>
       {link && (
@@ -94,7 +94,7 @@ export const Cards = () => {
         </SectionCard>
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2">
-          <a className="flex items-center justify-center rounded-[32px] border dark:border-[#4e4e4e65] border-[#07070718] bg-white dark:bg-[#262440] px-9 py-10" href="https://www.linkedin.com/in/danish-fareed-graphics/" target="_blank">
+          <a className="flex items-center justify-center rounded-[32px] border dark:border-[#4e4e4e65] border-[#07070718] dark:bg-[#222636]/50 bg-white/50 px-9 py-10" href="https://www.linkedin.com/in/danish-fareed-graphics/" target="_blank">
             <div>
               {theme === "dark" && mounted ? <img src="./svg/linkedin.svg" alt="" /> : <img src="./svg/linkedin-light.svg" alt="" />}
               {/* <Link className="text-primary hover:underline fixed bottom-2 right-2 hidden">↗</Link> */}
@@ -110,7 +110,7 @@ export const Cards = () => {
         {/* Education Card */}
         <div>
           <div className=' flex flex-col h-full gap-6'>
-            <div className='rounded-[32px] bg-white dark:bg-[#252438] border dark:border-[#4e4e4e65] border-[#07070718] px-9 py-10 max-h-min'>
+            <div className='rounded-[32px] dark:bg-[#222636]/50 bg-white/50 border dark:border-[#4e4e4e65] border-[#07070718] px-9 py-10 max-h-min'>
               <h4 className="text-[20px] font-semibold dark:text-white text-[#3a3a3a]">The University of Lahore</h4>
               <p className="mt-2 text-sm dark:text-[#ffffff6e] text-[#0000008c] font-normal">
                 BS - Computer Science (Oct. 2023 – Continued)
@@ -119,7 +119,7 @@ export const Cards = () => {
                 Programming Fundamentals (PF), Object Oriented Programming (OOP), Data Structures & Algorithms (DSA), Design Analysis of Algorithms (DAA), Database Systems (DBS), Compiler Construction (CC), Operating System (OS) and more
               </p>
             </div>
-            <div className='rounded-[32px] bg-white dark:bg-[#252438] px-9 py-10 flex justify-center items-center flex-grow'>
+            <div className='rounded-[32px] dark:bg-[#222636]/50 bg-white/50 px-9 py-10 flex justify-center items-center flex-grow'>
               {theme === "dark" && mounted ? <img src="./svg/horizongo.svg" alt="" /> : <img src="./svg/horizongo-light.svg" alt="" />}
             </div>
           </div>
@@ -127,7 +127,7 @@ export const Cards = () => {
 
         {/* Experience Cards */}
         <div className="grid gap-6 md:grid-rows-2 lg:grid-rows-2">
-            <div className="rounded-[32px] bg-white dark:bg-[#252438] border dark:border-[#4e4e4e65] border-[#07070718] pl-9 pr-5 py-5 flex items-center justify-between">
+            <div className="rounded-[32px] dark:bg-[#222636]/50 bg-white/50 border dark:border-[#4e4e4e65] border-[#07070718] pl-9 pr-5 py-5 flex items-center justify-between">
               <h3 className="text-lg font-semibold dark:text-white text-[#3a3a3a]">
                 RESUME
               </h3>
@@ -159,14 +159,14 @@ export const Cards = () => {
           <div className='grid gap-6 md:grid-cols-2 lg:grid-cols-2'>
             <div className='grid gap-6 md:grid-rows-2 lg:grid-rows-2'>
               {/* Email Contact Card */}
-              <div className="relative flex items-center justify-center rounded-[32px] border dark:border-[#4e4e4e65] border-[#07070718] bg-white dark:bg-[#262440] px-6 py-10">
+              <div className="relative flex items-center justify-center rounded-[32px] border dark:border-[#4e4e4e65] border-[#07070718] dark:bg-[#222636]/50 bg-white/50 px-6 py-10">
                   <a href="mailto:danishfareed@gmail.com" className="absolute !left-0 !right-0 !top-0 !bottom-0 w-auto h-auto flex items-center justify-center rounded-[32px] dark:text-[#ffffffbd] text-[#00000098] hover:underline">
                     <Icons.mail className="w-6 h-6" />
                   </a>
               </div>
 
               {/* Phone Contact Card */}
-              <div onClick={handleCopyPhone} className="relative flex items-center justify-center rounded-[32px] border dark:border-[#4e4e4e65] border-[#07070718] bg-white dark:bg-[#262440] px-6 py-10 cursor-pointer">
+              <div onClick={handleCopyPhone} className="relative flex items-center justify-center rounded-[32px] border dark:border-[#4e4e4e65] border-[#07070718] dark:bg-[#222636]/50 bg-white/50 px-6 py-10 cursor-pointer">
                 <div className="absolute !left-0 !right-0 !top-0 !bottom-0 w-auto h-auto flex items-center justify-center rounded-[32px]">
                   <Icons.phone className="w-6 h-6" />
 

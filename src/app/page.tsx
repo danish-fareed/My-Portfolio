@@ -1,3 +1,4 @@
+
 import { About } from '@/components/about';
 import { Cards } from '@/components/cards';
 import { Contact } from '@/components/contact';
@@ -7,10 +8,13 @@ import { Header } from '@/components/header';
 import { Intro } from '@/components/intro';
 import { Projects } from '@/components/projects';
 import { SectionDivider } from '@/components/section-divider';
+import SpotlightCursor from '@/components/SpotLightCursorExample';
 import { ThemeToggle } from '@/components/theme-toggle';
 import { projectsData } from '@/lib/data';
+import { useTheme } from 'next-themes';
 
 const Home = async () => {
+
   const starsCount = await Promise.all(
     projectsData.map(async ({ links }) => {
       const res = await fetch(links.githubApi, { cache: 'no-store' });
@@ -31,6 +35,7 @@ const Home = async () => {
         <Experience />
         <Contact /> */}
         <Footer />
+
       </div>
     </>
   );
