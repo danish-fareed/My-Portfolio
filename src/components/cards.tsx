@@ -188,7 +188,7 @@ export const Cards = () => {
                 </div>
               </div>
             </div>
-            <div className='relative rounded-[32px] border dark:border-[#4e4e4e65] border-[#07070718] bg-white dark:bg-[#262440]'>
+            <div className='relative rounded-[32px] h-14 md:h-full border dark:border-[#4e4e4e65] border-[#07070718] bg-white dark:bg-[#262440]'>
               <ThemeToggle className="absolute !left-0 !right-0 !top-0 !bottom-0 w-auto h-auto rounded-[32px] !bg-white dark:!bg-[#262440]" />
             </div>
 
