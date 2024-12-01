@@ -11,9 +11,11 @@ import {
   Sun,
   Phone,
   Mail,
+  Eye,
 } from 'lucide-react';
 
 export const Icons = {
+  eye: Eye,
   sun: Sun,
   phone: Phone,
   mail: Mail,

@@ -127,12 +127,27 @@ export const Cards = () => {
 
         {/* Experience Cards */}
         <div className="grid gap-6 md:grid-rows-2 lg:grid-rows-2">
-          <SectionCard title="ITCurves" link="/experience#itcurves">
-            <h4 className="text-[20px] font-semibold dark:text-white text-[#3a3a3a]">ITCurves</h4>
-            <p className='dark:text-[#ffffffbe] text-[#000000] font-normal'>Graphic Designer | UI/UX Designer (Mar. 2020 – Continued)</p>
-            <p className="text-sm dark:text-[#ffffff6e] text-[#0000008c] font-normal">BS - Computer Science (Oct. 2023 – Continued)</p>
-            <p className="mt-2 text-sm"></p>
-          </SectionCard>
+            <div className="rounded-[32px] dark:bg-[#252438] bg-white pl-9 pr-5 py-5 flex items-center justify-between">
+              <h3 className="text-lg font-semibold dark:text-white text-[#3a3a3a]">
+                RESUME
+              </h3>
+            <div className="flex grow h-full justify-end gap-4" >
+              {/* Download Button */}
+              <button
+                className="md:w-32  p-2 rounded-[24px] bg-[#00000007] border dark:bg-[#34324a7a] hover:bg-[#0000000e] dark:hover:bg-[#45425cc0] focus:outline-none flex items-center justify-center"
+                aria-label="Download Resume"
+              >
+                <Icons.download className="w-5 h-5 text-gray-600 dark:text-gray-300" />
+              </button>
+              {/* View Button */}
+              <button
+                className="md:w-32 p-2 rounded-[24px] bg-[#00000007] border  dark:bg-[#34324a7a] hover:bg-[#0000000e] dark:hover:bg-[#45425cc0] focus:outline-none flex items-center justify-center"
+                aria-label="View Resume"
+              >
+                <Icons.eye className="w-5 h-5 text-gray-600 dark:text-gray-300" />
+              </button>
+          </div>
+      </div>
 
           <SectionCard title="HorizonGo" link="/experience#itcurves">
             <h4 className="text-[20px] font-semibold dark:text-white text-[#3a3a3a]">HorizonGo</h4>
