@@ -15,7 +15,7 @@ const UseSpotLight = () => {
     }) 
     const spotlightConfig = {
       radius: 700,
-      color: mounted && theme === 'dark' ? '19, 41, 97': '114, 187, 255',
+      color: mounted && theme === 'dark' ? '19, 41, 97': '255, 255, 255',
       brightness: mounted && theme === 'dark' ? 1 : 1,
       overlayColor: mounted && theme === 'dark' ? '0, 0, 0' : '242, 242, 247',
       overlay: mounted && theme === 'dark' ? 0.2 : 0.5,

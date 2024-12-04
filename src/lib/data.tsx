@@ -71,17 +71,17 @@ export const projectsData = [
 
 export const experiencesData = [
   {
-    title: 'Internship at WEB-BOX',
-    location: 'Tarnobrzeg, PL',
+    title: 'Ui/UX Designer | Graphic Designer at ITCurves',
+    location: 'Lahore, Pakistan',
     description:
-      'During this internship, I focused on two key areas: creating Wordpress plugins and managing website content, plugins, and settings.',
+      'In this role, I established and refined the Product Design function, contributing to the overall success of the organization by & Pioneered the development of a structured, scalable design process that significantly improved workflow efficiency and communication across departments & Facilitating innovation through ongoing strategic sessions, improving the company’s product offerings and client satisfaction.',
     date: '2023',
   },
   {
-    title: 'Internship at Chop-Chop',
+    title: 'Ui/UX designer at HorizonGo',
     location: 'Remote',
     description:
-      'During my internship at Chop-Chop, I collaborated with an experienced IT team, focusing on tasks in Next.js. This experience provided valuable insights into teamwork and advanced my proficiency in Next.js.',
+      'Created and refined user flows, wireframes, and prototypes to deliver bespoke design solutions that aligned with each clients unique business goals and target audience & Fostered strong, trust-based partnerships by consistently delivering high-quality work',
     date: '2024',
   },
   {

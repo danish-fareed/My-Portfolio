@@ -94,7 +94,7 @@ export const Cards = () => {
         </SectionCard>
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2">
-          <a className="flex items-center justify-center rounded-[32px] border hover:bg-white dark:hover:bg-[#2a2f42]/60 transition-all duration-500 dark:border-[#4e4e4e65] border-[#07070718] dark:bg-[#222636]/50 bg-white/50 px-9 py-10" href="https://www.linkedin.com/in/danish-fareed-graphics/" target="_blank">
+          <a className="flex items-center justify-center rounded-[32px] border hover:bg-white dark:hover:bg-[#302e4e] transition-all duration-500 dark:border-[#4e4e4e65] border-[#07070718] dark:bg-[#222636]/50 bg-white/50 px-9 py-10" href="https://www.linkedin.com/in/danish-fareed-graphics/" target="_blank">
             <div>
               {theme === "dark" && mounted ? <img src="./svg/linkedin.svg" alt="" /> : <img src="./svg/linkedin-light.svg" alt="" />}
               {/* <Link className="text-primary hover:underline fixed bottom-2 right-2 hidden">↗</Link> */}

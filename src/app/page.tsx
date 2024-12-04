@@ -31,8 +31,10 @@ const Home = async () => {
         <SectionDivider />
         <Projects starsCount={starsCount} />
         <SectionDivider />
-        {/* <Experience /> */}
-        {/* <Contact /> */}
+        <Experience />
+        <SectionDivider />
+        <Contact />
+        <SectionDivider />
         <Footer />
 
       </div>
