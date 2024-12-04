@@ -1,5 +1,4 @@
 
-import { About } from '@/components/about';
 import { Cards } from '@/components/cards';
 import { Contact } from '@/components/contact';
 import { Experience } from '@/components/experience';
@@ -30,7 +29,6 @@ const Home = async () => {
         {/* <Intro /> */}
         <Cards />
         <SectionDivider />
-        {/* <About /> */}
         <Projects starsCount={starsCount} />
         <SectionDivider />
         {/* <Experience /> */}

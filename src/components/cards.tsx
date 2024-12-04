@@ -37,7 +37,7 @@ const SectionCard = ({ children }: SectionCardProps) => (
 export const Cards = () => {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
-  const { ref } = useSectionInView('Home');
+  const { ref } = useSectionInView('About');
   const [open, setOpen] = useState(false);
 
 
@@ -57,7 +57,7 @@ export const Cards = () => {
   return (
     <motion.section
       ref={ref}
-      id="home"
+      id="about"
       className="my-10 scroll-mt-96 sm:mt-4"
       initial={{
         opacity: 0,
