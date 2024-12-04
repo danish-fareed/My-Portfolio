@@ -29,11 +29,11 @@ const Home = async () => {
         <Header />
         {/* <Intro /> */}
         <Cards />
-        {/* <SectionDivider />
-        <About />
+        <SectionDivider />
+        {/* <About /> */}
         <Projects starsCount={starsCount} />
-        <Experience />
-        <Contact /> */}
+        {/* <Experience /> */}
+        {/* <Contact /> */}
         <Footer />
 
       </div>
