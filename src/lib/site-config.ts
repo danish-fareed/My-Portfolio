@@ -1,7 +1,7 @@
 import { env } from '@/env.mjs';
 
 export const siteConfig = {
-  title: 'Danish Fareed | Ui/Ux Designer',
+  title: 'Danish Fareed | Ui/UX & Product Designer',
   description:
     "Hello, I'm Danish. I am front-end developer from Poland. I enjoy building sites and apps. My focus is React (Next.js).",
   keywords: [
