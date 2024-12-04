@@ -8,7 +8,7 @@ import { Icons } from '@/components/icons';
 import { useSectionInView } from '@/hooks/use-section-in-view';
 
 export const Intro = () => {
-  const { ref } = useSectionInView('Home');
+  const { ref } = useSectionInView('About');
 
   return (
     <section
