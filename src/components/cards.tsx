@@ -112,14 +112,14 @@ export const Cards = () => {
           <div className=' flex flex-col h-full gap-6'>
             <div className='rounded-[32px] hover:bg-white dark:hover:bg-[#2a2f42]/60 transition-all duration-500 dark:bg-[#222636]/50 bg-white/50 border dark:border-[#4e4e4e65] border-[#07070718] px-9 py-10 max-h-min'>
               <h4 className="text-[20px] font-semibold dark:text-white text-[#3a3a3a]">The University of Lahore</h4>
-              <p className="mt-2 text-sm dark:text-[#ffffff6e] text-[#0000008c] font-normal">
+              <p className="text-sm dark:text-[#ffffff6e] text-[#0000008c] font-normal">
                 BS - Computer Science (Oct. 2023 – Continued)
               </p>
-              <p className="mt-2 text-sm dark:text-[#ffffff9a] text-[#0000008c] font-normal">
+              <p className="mt-1 text-sm dark:text-[#ffffff9a] text-[#00000073] font-normal">
                 Programming Fundamentals (PF), Object Oriented Programming (OOP), Data Structures & Algorithms (DSA), Design Analysis of Algorithms (DAA), Database Systems (DBS), Compiler Construction (CC), Operating System (OS) and more
               </p>
             </div>
-            <div className='rounded-[32px] hover:bg-white dark:hover:bg-[#2a2f42]/60 transition-all duration-500 dark:bg-[#222636]/50 bg-white/50 px-9 py-10 flex justify-center items-center flex-grow'>
+            <div className='rounded-[32px] hover:bg-white border dark:border-[#4e4e4e65] dark:hover:bg-[#2a2f42]/60 transition-all duration-500 dark:bg-[#222636]/50 bg-white/50 px-9 py-10 flex justify-center items-center flex-grow'>
               {theme === "dark" && mounted ? <img src="./svg/horizongo.svg" alt="" /> : <img src="./svg/horizongo-light.svg" alt="" />}
             </div>
           </div>
@@ -163,9 +163,9 @@ export const Cards = () => {
           </div>
 
           <SectionCard title="HorizonGo" link="/experience#itcurves">
-            <h4 className="text-[20px] font-semibold dark:text-white text-[#3a3a3a]">HorizonGo</h4>
-            <p className='dark:text-[#ffffffbe] text-[#000000] font-normal'>Graphic Designer | UI/UX Designer (Mar. 2020 – Continued)</p>
+            <h4 className="text-[20px] font-semibold dark:text-white text-[#3a3a3a]">ITCurves</h4>
             <p className="text-sm dark:text-[#ffffff6e] text-[#0000008c] font-normal">BS - Computer Science (Oct. 2023 – Continued)</p>
+            <p className='dark:text-[#cbcad4af] text-[#00000073] font-light mt-1'>Scalable design process that significantly improves efficiency.</p>
             <p className="mt-2 text-sm"></p>
           </SectionCard>
 

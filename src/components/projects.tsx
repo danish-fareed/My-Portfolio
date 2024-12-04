@@ -23,7 +23,7 @@ export const Projects = ({ starsCount }: TProps) => {
   });
 
   return (
-    <section ref={ref} id="projects" className="w-full my-10 scroll-m-28 mb-48 ">
+    <section ref={ref} id="projects" className="w-full mb-10 scroll-m-28  ">
       <motion.div
         initial={{
           opacity: 0,
